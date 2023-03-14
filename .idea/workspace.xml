@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="fixed calculator code and pom.xml file">
+    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="corrected jar name in Dockerfile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -41,6 +47,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -56,7 +63,8 @@
       <workItem from="1678783243658" duration="1002000" />
       <workItem from="1678786631878" duration="2129000" />
       <workItem from="1678789237588" duration="48000" />
-      <workItem from="1678799980580" duration="488000" />
+      <workItem from="1678799980580" duration="1638000" />
+      <workItem from="1678801666254" duration="264000" />
     </task>
     <task id="LOCAL-00001" summary="added dockerfile and junit dependency">
       <created>1678626935466</created>
@@ -86,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678800428677</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="corrected jar name in Dockerfile">
+      <created>1678800501155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678800501155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +112,7 @@
     <MESSAGE value="added deploy config for ansible" />
     <MESSAGE value="added code to Scientific Calc" />
     <MESSAGE value="fixed calculator code and pom.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed calculator code and pom.xml file" />
+    <MESSAGE value="corrected jar name in Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected jar name in Dockerfile" />
   </component>
 </project>
