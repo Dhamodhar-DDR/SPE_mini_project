@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="added apache dependency">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="fixed dockerfile error">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <workItem from="1678789237588" duration="48000" />
       <workItem from="1678799980580" duration="1638000" />
       <workItem from="1678801666254" duration="1479000" />
-      <workItem from="1678803180905" duration="465000" />
+      <workItem from="1678803180905" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="added dockerfile and junit dependency">
       <created>1678626935466</created>
@@ -123,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678803332190</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed dockerfile error">
+      <created>1678803667970</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678803667970</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +143,7 @@
     <MESSAGE value="corrected jar name in Dockerfile" />
     <MESSAGE value="corrected jar name in Dockerfile and fixed pom.xml" />
     <MESSAGE value="added apache dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="added apache dependency" />
+    <MESSAGE value="fixed dockerfile error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed dockerfile error" />
   </component>
 </project>
