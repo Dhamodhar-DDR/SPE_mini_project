@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="added dockerfile and junit dependency">
-      <change afterPath="$PROJECT_DIR$/ansible-deploy-config/deploy-playbook.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansible-deploy-config/inventory" afterDir="false" />
+    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="added deploy config for ansible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-deploy-config/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-deploy-config/inventory" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678272307551</updated>
       <workItem from="1678626177507" duration="2017000" />
-      <workItem from="1678783243658" duration="680000" />
+      <workItem from="1678783243658" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="added dockerfile and junit dependency">
       <created>1678626935466</created>
@@ -64,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678626935466</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added deploy config for ansible">
+      <created>1678783954829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678783954830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +78,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added dockerfile and junit dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dockerfile and junit dependency" />
+    <MESSAGE value="added deploy config for ansible" />
+    <option name="LAST_COMMIT_MESSAGE" value="added deploy config for ansible" />
   </component>
 </project>
