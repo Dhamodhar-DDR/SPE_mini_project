@@ -1,0 +1,8 @@
+---
+- name: deploy scientific calculator
+  hosts: all
+  tasks:
+    - name: pull scientific calculator image from dockerhub
+      docker_image:
+        name: dhamodhar7/sci_calc_spe_mini
+        source: pull
