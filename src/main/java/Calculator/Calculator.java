@@ -30,10 +30,9 @@ public class Calculator {
         Calculator calculator = new Calculator();
         double inp1, inp2;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("################ Scientific Calculator ################");
-        System.out.print(" 1. Find square root of a number\n 2. Find factorial of a number\n 3. Find Natural logarithm of a number\n 4. Find power of a raised to b\n" + "Enter any integer corresponding to the calculation to perform: ");
-
         while(true) {
+            System.out.println("################ Scientific Calculator ################");
+            System.out.print("Enter one of the following integers corresponding to the task you would like to perform\n 1. Find square root of a number\n 2. Find factorial of a number\n 3. Find Natural logarithm of a number\n 4. Find power of a raised to b\n" + "(Enter any other integer to exit)\n");
             int base_inp;
             base_inp = scanner.nextInt();
             switch (base_inp) {
