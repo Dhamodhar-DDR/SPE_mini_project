@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="added deploy config for ansible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible-deploy-config/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-deploy-config/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
       <updated>1678272307551</updated>
       <workItem from="1678626177507" duration="2017000" />
       <workItem from="1678783243658" duration="1002000" />
+      <workItem from="1678786631878" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="added dockerfile and junit dependency">
       <created>1678626935466</created>
