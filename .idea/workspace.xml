@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="added code to Scientific Calc">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterDir="false" />
+    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="fixed calculator code and pom.xml file">
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <workItem from="1678783243658" duration="1002000" />
       <workItem from="1678786631878" duration="2129000" />
       <workItem from="1678789237588" duration="48000" />
-      <workItem from="1678799980580" duration="256000" />
+      <workItem from="1678799980580" duration="488000" />
     </task>
     <task id="LOCAL-00001" summary="added dockerfile and junit dependency">
       <created>1678626935466</created>
@@ -81,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678788030567</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed calculator code and pom.xml file">
+      <created>1678800428677</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678800428677</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +96,7 @@
     <MESSAGE value="added dockerfile and junit dependency" />
     <MESSAGE value="added deploy config for ansible" />
     <MESSAGE value="added code to Scientific Calc" />
-    <option name="LAST_COMMIT_MESSAGE" value="added code to Scientific Calc" />
+    <MESSAGE value="fixed calculator code and pom.xml file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed calculator code and pom.xml file" />
   </component>
 </project>
