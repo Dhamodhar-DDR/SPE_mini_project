@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="re-fixed dockerfile error">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalcTest.java" afterDir="false" />
+    <list default="true" id="76f5d776-5267-4a13-9ac9-d72a90bd3973" name="Changes" comment="added logs using log4j and fixed few tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible-deploy-config/deploy-playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible-deploy-config/deploy-playbook.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <workItem from="1678801666254" duration="1479000" />
       <workItem from="1678803180905" duration="2438000" />
       <workItem from="1678805687394" duration="353000" />
-      <workItem from="1678896345398" duration="2073000" />
+      <workItem from="1678896345398" duration="3632000" />
     </task>
     <task id="LOCAL-00001" summary="added dockerfile and junit dependency">
       <created>1678626935466</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678803862518</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added logs using log4j and fixed few tests">
+      <created>1678900042995</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678900042995</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +174,7 @@
     <MESSAGE value="added apache dependency" />
     <MESSAGE value="fixed dockerfile error" />
     <MESSAGE value="re-fixed dockerfile error" />
-    <option name="LAST_COMMIT_MESSAGE" value="re-fixed dockerfile error" />
+    <MESSAGE value="added logs using log4j and fixed few tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logs using log4j and fixed few tests" />
   </component>
 </project>
