@@ -1,38 +1,67 @@
 package Calculator;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Calculator {
-    public double square_root(double a){
-        if(a<0) return 0;
+    private static final Logger logUtility = LogManager.getLogger(Calculator.class);
+    public Double square_root(double a){
+        if(a<0)
+        {
+            logUtility.error("Square root of negative number is not defined");
+            return null;
+        }
+        logUtility.info("Square root of "+a+" is equal to: "+ Math.sqrt(a));
         return Math.sqrt(a);
     }
-    public double factorial(double a){
-        if(a <= 0) return 0;
+    public Integer factorial(double a){
+        if(a < 0) {
+            logUtility.error("Factorial of negative number is not defined");
+            return null;
+        }
         else{
-            double ans = 1;
-            for(int i = 1; i <= a; i++)
-            {
-                ans = ans * i;
-            }
+            Integer ans = 1;
+            for(int i = 1; i <= a; i++) ans = ans * i;
+            logUtility.info("Factorial of "+a+" is equal to: "+ ans);
             return ans;
         }
     }
-    public double logarithm(double a){
-        if(a == 0) return 0;
+    public Double logarithm(double a){
+        if(a == 0) {
+            logUtility.error("Natural Logarithm of zero is not defined");
+            return null;
+        }
+        if(a < 0) {
+            logUtility.error("Natural Logarithm of negative numbers is not defined");
+            return null;
+        }
+        logUtility.info("Natural Logarithm of "+a+" is equal to: " + Math.log(a));
         return Math.log(a);
     }
-    public double power(double a, double b){
-        if(a == 0 & b == 0) return 0;
+    public Double power(double a, double b){
+        if(a == 0 & b == 0)
+        {
+            logUtility.info("0 power 0 is not defined");
+            return null;
+        }
+        logUtility.info(a+ " power "+b+" is equal to: " + Math.pow(a, b));
         return Math.pow(a, b);
     }
 
     public static void main(String[] args){
         Calculator calculator = new Calculator();
-        double inp1, inp2;
         Scanner scanner = new Scanner(System.in);
-        while(true) {
+
+        double inp1, inp2;
+        while(true)
+        {
             System.out.println("################ Scientific Calculator ################");
-            System.out.print("Enter one of the following integers corresponding to the task you would like to perform\n 1. Find square root of a number\n 2. Find factorial of a number\n 3. Find Natural logarithm of a number\n 4. Find power of a raised to b\n" + "(Enter any other integer to exit)\n");
+            System.out.println("Enter one of the following integers corresponding to the task you would like to perform");
+            System.out.println("1. Find square root of a number");
+            System.out.println("2. Find factorial of a number");
+            System.out.println("3. Find Natural logarithm of a number");
+            System.out.println("4. Find power of a raised to b");
+            System.out.println("5. Enter 5 to exit");
             int base_inp;
             base_inp = scanner.nextInt();
             switch (base_inp) {
