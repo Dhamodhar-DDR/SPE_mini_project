@@ -13,6 +13,7 @@ public class Calculator {
         }
         logUtility.info("[SQRT] - Square root of "+a+" is equal to: "+ Math.sqrt(a));
         return Math.sqrt(a);
+
     }
     public Integer factorial(double a){
         if(a < 0) {
