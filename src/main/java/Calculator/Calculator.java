@@ -9,7 +9,7 @@ public class Calculator {
         if(a<0)
         {
             logUtility.error("Square root of negative number is not defined");
-            return null;
+            return -1.0;
         }
         logUtility.info("[SQRT] - Square root of "+a+" is equal to: "+ Math.sqrt(a));
         return Math.sqrt(a);
@@ -17,7 +17,7 @@ public class Calculator {
     public Integer factorial(double a){
         if(a < 0) {
             logUtility.error("Factorial of negative number is not defined");
-            return null;
+            return -1;
         }
         else{
             Integer ans = 1;
@@ -29,11 +29,11 @@ public class Calculator {
     public Double logarithm(double a){
         if(a == 0) {
             logUtility.error("Natural Logarithm of zero is not defined");
-            return null;
+            return -1.0;
         }
         if(a < 0) {
             logUtility.error("Natural Logarithm of negative numbers is not defined");
-            return null;
+            return -1.0;
         }
         logUtility.info("[LOG] - of "+a+" is equal to: " + Math.log(a));
         return Math.log(a);
@@ -42,7 +42,7 @@ public class Calculator {
         if(a == 0 & b == 0)
         {
             logUtility.info("0 power 0 is not defined");
-            return null;
+            return -1.0;
         }
         logUtility.info("[POWER] - "+a+ " power "+b+" is equal to: " + Math.pow(a, b));
         return Math.pow(a, b);

@@ -12,6 +12,7 @@ public class CalcTest {
         assertEquals("square root test of a number for true positive", 7, calculator.square_root(49),DIFF);
         assertEquals("square root test of a number for true positive", 15, calculator.square_root(225),DIFF);
         assertEquals("square root test of a number for true positive", 1, calculator.square_root(1),DIFF);
+        assertEquals("square root test of a number for true positive", -1, calculator.square_root(-100),DIFF);
     }
     @Test
     public void square_rootFP(){
