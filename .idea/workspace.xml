@@ -92,7 +92,7 @@
       <workItem from="1679404329404" duration="1592000" />
       <workItem from="1679415714447" duration="457000" />
       <workItem from="1679418274697" duration="447000" />
-      <workItem from="1679744974099" duration="5403000" />
+      <workItem from="1679744974099" duration="5850000" />
     </task>
     <task id="LOCAL-00001" summary="added dockerfile and junit dependency">
       <created>1678626935466</created>
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679750202790</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added log4j properties file">
+      <created>1679750558864</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679750558864</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
