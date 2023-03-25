@@ -8,4 +8,4 @@
         source: pull
 
     - name: Run the container
-      shell: docker run -it -d dhamodhar7/sci_calc_spe_mini
+      shell: docker run -it -d dhamodhar7/sci_calc_spe_mini /bin/bash
